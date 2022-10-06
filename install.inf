@@ -1,0 +1,6 @@
+[info]
+title=Linter for JavaScript, using quick-lint-js
+desc=Linter for CudaLint, adds support for JavaScript lexer, uses "quick-lint-js"
+type=cudatext-plugin
+subdir=cuda_lint_quicklintjs
+homepage=https://github.com/CudaText-addons/cuda_lint_quicklintjs
