@@ -13,5 +13,5 @@ refer to the homepage.
 After installing make sure you can actually run it:
 $ quick-lint-js --version
 
-Ported from SublimeLinter-contrib-quick-lint-js by Alexey T. (CudaText).
+Ported from SublimeLinter-contrib-quick-lint-js by Alexey Torgashin (CudaText).
 License: MIT
