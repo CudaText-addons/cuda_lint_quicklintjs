@@ -7,7 +7,7 @@ class QuickLintJs(Linter):
     cmd = "quick-lint-js -"
     regex = (
         r"^(?P<filename>.+?):(?P<line>\d+):(?P<col>\d+):\s"
-        r"(?P<message>.+)\s\[(?P<code>.+)]"
+        r"(?P<message>((?P<error>error:)|(?P<warning>warning:)).+)\s\[(?P<code>\w+)]"
     )
     error_stream = STREAM_STDERR
     
